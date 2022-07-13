@@ -1,0 +1,17 @@
+version: '3.9'
+services:
+  app:
+    container_name: "migration-app"
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    image: $host_docker_registry:$port_docker_registry/$git_repository_name/migration-app:latest
+    ports:
+      - 8800:8888
+    restart: unless-stopped
+    volumes:
+      - "${WORKSPACE_PATH}:/workspace/gitlab"
+      - source:/workspace
+volumes:
+  source:
+    driver: local
