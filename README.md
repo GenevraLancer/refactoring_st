@@ -7,4 +7,4 @@ In my company we have some projects in private git repositories. Each project is
 The main task is to get information/statistics about objects placed inside of xml files. The second task is to modify xml files according to some business rules.
 
 ## Step 1. Obtaining a service layer
-I adore a [cosmic python book](https://www.cosmicpython.com/). I got from this book a first advice and start refactoring from obtaining a service layer.
+I adore a [cosmic python book](https://www.cosmicpython.com/). I got from this book a first advice and start refactoring brunch 1_ball_of_mud from obtaining a service layer.
