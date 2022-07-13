@@ -6,5 +6,25 @@ Switch a branch to read about refactoring step you interested in.
 In my company we have some projects in private git repositories. Each project is a set of folders, xml files and may contain other types of files.
 The main task is to get information/statistics about objects placed inside of xml files. The second task is to modify xml files according to some business rules.
 
-## Step 1. Obtaining a service layer
+## Step 1. Create project structure
+
+![arch](https://user-images.githubusercontent.com/25906422/178775519-78304cf5-3a8a-41e5-a571-3b12ff173b52.png)
+
+```
+multitool   
+│   
+└───domain
+│
+└───infrastructure
+│   │
+│   └───adapters
+│     │
+│     └───filesystem
+│   
+└───services
+```
+
+## Step 2. Obtaining a service layer
 I adore a [cosmic python book](https://www.cosmicpython.com/). I got from this book a first advice and start refactoring brunch 1_ball_of_mud from obtaining a service layer.
+
+
