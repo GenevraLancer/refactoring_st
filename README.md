@@ -11,6 +11,6 @@ On my mind, the simplest way to start parsing and modifying xml files is using t
 
 ## Step 2. Success
 I had a success and first version of my app was done.
-On this brunch you will see it.
+You will see it on this brunch.
 
 ## Step 3. Ball of mud
