@@ -20,7 +20,7 @@ At the testing stage, it was discovered that some buisness projects has a differ
 And I had to modify functions definitions to meet new business requirements.
 A small utility app became a large utility app. 
 
-A large *.ipynb file looks like ball_of_mud programming style. It is not about functional programming anymore.
+A large *.ipynb file looks like [big_ball_of_mud programming style](https://en.wikipedia.org/wiki/Big_ball_of_mud). It is not about functional programming anymore.
 There is a point to make a sense about the app architecture.
 
 Continue on the brunch 2_project_structure
