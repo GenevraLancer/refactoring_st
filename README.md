@@ -8,7 +8,7 @@ The main task is to get information/statistics about objects placed inside of xm
 
 ## Step 1. Create project structure
 This is widely used presentation of architecture layers in an app. Some times the Services layer is called the Use case layer.
-
+<img src="https://user-images.githubusercontent.com/25906422/178775519-78304cf5-3a8a-41e5-a571-3b12ff173b52.png" width="100" height="100">
 ![arch](https://user-images.githubusercontent.com/25906422/178775519-78304cf5-3a8a-41e5-a571-3b12ff173b52.png)
 
 The folder structure turned out like this. 
