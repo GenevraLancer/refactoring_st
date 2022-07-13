@@ -1,5 +1,6 @@
 # Implementing architecture patterns by refactoring a python app
 In this project I want to show a ways to refactor a python app. I will write about common use architectural patterns like DDD, CQSR and Clean Architecture.
+Switch a branch to read about refactoring step you interested in.
 
 ## Buisness Requirements
 In my company we have some projects in private git repositories. Each project is a set of folders, xml files and may contain other types of files.
